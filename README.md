@@ -119,7 +119,7 @@ ros2 control load_controller --set-state active arm_controller
 ```
 The moment you run the second command, the arm in Gazebo should snap to the upright position.
 
-## past here i have not tested - this is for future use if i get it running
+## this section only i have not tested - this is for future use if i get it running
 Terminal 3 (Optional): Aruco Recognition
 To run the computer vision node:
 
