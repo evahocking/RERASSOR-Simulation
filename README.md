@@ -22,8 +22,10 @@ sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 locale  # verify settings
-1.2 Add ROS 2 Sources
-Bash
+```
+
+### 1.2 Add ROS 2 Sources
+```bash
 
 sudo apt install software-properties-common
 sudo add-apt-repository universe
@@ -32,32 +34,37 @@ sudo apt update && sudo apt install curl -y
 sudo curl -sSL [https://raw.githubusercontent.com/ros/rosdistro/master/ros.key](https://raw.githubusercontent.com/ros/rosdistro/master/ros.key) -o /usr/share/keyrings/ros-archive-keyring.gpg
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] [http://packages.ros.org/ros2/ubuntu](http://packages.ros.org/ros2/ubuntu) $(. /etc/os-release && echo $VERSION_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
 1.3 Install ROS 2 Humble
-Bash
+```bash
 
 sudo apt update
 sudo apt upgrade
 sudo apt install ros-humble-desktop
 sudo apt install python3-colcon-common-extensions
+```
 1.4 Environment Setup
 Add the ROS 2 setup script to your .bashrc so you don't have to source it manually every time.
 
-Bash
+```bash
 
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+```
 2. Project Installation
 2.1 Clone the Fixed Repository
 Clone this repository directly into your home directory to act as your workspace (~/ros2_ws).
 
-Bash
+```bash
 
 cd ~
 git clone [https://github.com/evahocking/RERASSOR-Simulation.git](https://github.com/evahocking/RERASSOR-Simulation.git) ros2_ws
+```
 2.2 Install Simulation Dependencies (Critical)
 You must install these specific packages. Without them, Gazebo will crash or the arm will be limp.
 
-Bash
+```bash
 
 sudo apt-get update
 sudo apt-get install -y \
@@ -70,13 +77,16 @@ sudo apt-get install -y \
     ros-humble-joint-state-publisher-gui \
     python3-opencv \
     ros-humble-cv-bridge
+
+```
 2.3 Build the Workspace
 Navigate to the workspace root and build.
 
-Bash
+```bash
 
 cd ~/ros2_ws
 colcon build
+```
 (Note: "Stderr" output during the build is normal as long as it says "Finished" at the end).
 
 3. Running the Simulation
@@ -85,17 +95,18 @@ You must use two terminals to run the full simulation.
 Terminal 1: Launch the Simulation Environment
 This starts Gazebo (physics), Rviz (visualization), and the robot model.
 
-Bash
+```bash
 
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch final_description bringup.launch.py
+```
 Note: The arm will spawn in a "slumped" state (limp) inside Gazebo. This is expected behavior until you run Terminal 2.
 
 Terminal 2: Wake Up the Controllers
 Open a new terminal to activate the motors.
 
-Bash
+```bash
 
 cd ~/ros2_ws
 source install/setup.bash
@@ -105,16 +116,19 @@ ros2 control load_controller --set-state active joint_state_broadcaster
 
 # 2. Load the arm controller (This makes the arm stand up!)
 ros2 control load_controller --set-state active arm_controller
+```
 The moment you run the second command, the arm in Gazebo should snap to the upright position.
 
+## past here i have not tested - this is for future use if i get it running
 Terminal 3 (Optional): Aruco Recognition
 To run the computer vision node:
 
-Bash
+```bash
 
 cd ~/ros2_ws
 source install/setup.bash
 ros2 run aruco_recognition aruco_pose_estimation.py
+```
 4. Moving the Arm (MoveIt)
 Go to the Rviz window (the one showing the orange robot).
 
