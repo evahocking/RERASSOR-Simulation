@@ -36,7 +36,7 @@ sudo curl -sSL [https://raw.githubusercontent.com/ros/rosdistro/master/ros.key](
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] [http://packages.ros.org/ros2/ubuntu](http://packages.ros.org/ros2/ubuntu) $(. /etc/os-release && echo $VERSION_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
 
-1.3 Install ROS 2 Humble
+### 1.3 Install ROS 2 Humble
 ```bash
 
 sudo apt update
@@ -44,7 +44,7 @@ sudo apt upgrade
 sudo apt install ros-humble-desktop
 sudo apt install python3-colcon-common-extensions
 ```
-1.4 Environment Setup
+### 1.4 Environment Setup
 Add the ROS 2 setup script to your .bashrc so you don't have to source it manually every time.
 
 ```bash
@@ -52,8 +52,8 @@ Add the ROS 2 setup script to your .bashrc so you don't have to source it manual
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
-2. Project Installation
-2.1 Clone the Fixed Repository
+### 2. Project Installation
+### 2.1 Clone the Fixed Repository
 Clone this repository directly into your home directory to act as your workspace (~/ros2_ws).
 
 ```bash
@@ -61,7 +61,7 @@ Clone this repository directly into your home directory to act as your workspace
 cd ~
 git clone [https://github.com/evahocking/RERASSOR-Simulation.git](https://github.com/evahocking/RERASSOR-Simulation.git) ros2_ws
 ```
-2.2 Install Simulation Dependencies (Critical)
+### 2.2 Install Simulation Dependencies (Critical)
 You must install these specific packages. Without them, Gazebo will crash or the arm will be limp.
 
 ```bash
@@ -79,7 +79,7 @@ sudo apt-get install -y \
     ros-humble-cv-bridge
 
 ```
-2.3 Build the Workspace
+### 2.3 Build the Workspace
 Navigate to the workspace root and build.
 
 ```bash
@@ -89,7 +89,7 @@ colcon build
 ```
 (Note: "Stderr" output during the build is normal as long as it says "Finished" at the end).
 
-3. Running the Simulation
+### 3. Running the Simulation
 You must use two terminals to run the full simulation.
 
 Terminal 1: Launch the Simulation Environment
@@ -129,7 +129,7 @@ cd ~/ros2_ws
 source install/setup.bash
 ros2 run aruco_recognition aruco_pose_estimation.py
 ```
-4. Moving the Arm (MoveIt)
+### 4. Moving the Arm (MoveIt)
 Go to the Rviz window (the one showing the orange robot).
 
 Locate the MotionPlanning panel (usually bottom left).
