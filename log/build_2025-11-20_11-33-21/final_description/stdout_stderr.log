@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eva/ros2_ws/build/final_description
+-- Install configuration: ""
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/bringup.launch.py
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/camera_test.launch.py
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/display.launch.py
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/gazebo.launch.py
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/spawn_model.launch.py
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/camera_test.urdf
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final_include.xacro
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final.xacro
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/materials.xacro
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final.gazebo
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/README.md
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/camera_test.xacro
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final.trans
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcaplinktwo.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/manipulator.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcapbasetwo.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/pinbase.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/wormone.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/baseonetop.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/sunconnector.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/motorthree.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/base_link.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/motorendtwo.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/motorendone.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/armone.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcaplinkone.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/planetaryconnector.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/pinend.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/gearone.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/wormthree.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/pinlinks.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcapbaseone.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/gearthree.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config/moveit.rviz
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config/final_description_controllers.yaml
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config/display.rviz
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/meshes
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/meshes/block_long.dae
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/meshes/block_long.stl
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/model.config
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/model.sdf
+-- Installing: /home/eva/ros2_ws/install/final_description/share/ament_index/resource_index/package_run_dependencies/final_description
+-- Installing: /home/eva/ros2_ws/install/final_description/share/ament_index/resource_index/parent_prefix_path/final_description
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/ament_prefix_path.sh
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/ament_prefix_path.dsv
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/path.sh
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/path.dsv
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.bash
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.sh
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.zsh
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.dsv
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/package.dsv
+-- Installing: /home/eva/ros2_ws/install/final_description/share/ament_index/resource_index/packages/final_description
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/cmake/final_descriptionConfig.cmake
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/cmake/final_descriptionConfig-version.cmake
+-- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/package.xml

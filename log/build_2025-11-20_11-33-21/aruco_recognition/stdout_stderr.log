@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eva/ros2_ws/build/aruco_recognition
+-- Install configuration: ""
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/lib/aruco_recognition/aruco_pose_estimation.py
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/ament_index/resource_index/package_run_dependencies/aruco_recognition
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/ament_index/resource_index/parent_prefix_path/aruco_recognition
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/ament_prefix_path.sh
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/ament_prefix_path.dsv
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/path.sh
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/path.dsv
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.bash
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.sh
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.zsh
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.dsv
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/package.dsv
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/ament_index/resource_index/packages/aruco_recognition
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/cmake/aruco_recognitionConfig.cmake
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/cmake/aruco_recognitionConfig-version.cmake
+-- Installing: /home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/package.xml

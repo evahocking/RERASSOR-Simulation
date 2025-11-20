@@ -1,0 +1,60 @@
+[0.026s] Invoking command in '/home/eva/ros2_ws/build/final_description_moveit_config': AMENT_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake /home/eva/ros2_ws/src/final_description_moveit_config -DCMAKE_INSTALL_PREFIX=/home/eva/ros2_ws/install/final_description_moveit_config
+[0.229s] -- The C compiler identification is GNU 11.4.0
+[0.384s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.684s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.684s] -- Detecting C compile features
+[0.684s] -- Detecting C compile features - done
+[0.684s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.889s] -- Detecting CXX compile features
+[0.890s] -- Detecting CXX compile features - done
+[0.894s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.301s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.722s] -- Configuring done
+[1.731s] -- Generating done
+[1.732s] -- Build files have been written to: /home/eva/ros2_ws/build/final_description_moveit_config
+[1.752s] Invoked command in '/home/eva/ros2_ws/build/final_description_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake /home/eva/ros2_ws/src/final_description_moveit_config -DCMAKE_INSTALL_PREFIX=/home/eva/ros2_ws/install/final_description_moveit_config
+[1.754s] Invoking command in '/home/eva/ros2_ws/build/final_description_moveit_config': AMENT_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --build /home/eva/ros2_ws/build/final_description_moveit_config -- -j2 -l2
+[1.981s] Invoked command in '/home/eva/ros2_ws/build/final_description_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --build /home/eva/ros2_ws/build/final_description_moveit_config -- -j2 -l2
+[1.982s] Invoking command in '/home/eva/ros2_ws/build/final_description_moveit_config': AMENT_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --install /home/eva/ros2_ws/build/final_description_moveit_config
+[2.001s] -- Install configuration: ""
+[2.001s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/ament_index/resource_index/package_run_dependencies/final_description_moveit_config
+[2.002s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/ament_index/resource_index/parent_prefix_path/final_description_moveit_config
+[2.002s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/environment/ament_prefix_path.sh
+[2.002s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/environment/ament_prefix_path.dsv
+[2.002s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/environment/path.sh
+[2.003s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/environment/path.dsv
+[2.003s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/local_setup.bash
+[2.003s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/local_setup.sh
+[2.004s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/local_setup.zsh
+[2.004s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/local_setup.dsv
+[2.005s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/package.dsv
+[2.005s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/ament_index/resource_index/packages/final_description_moveit_config
+[2.006s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/cmake/final_description_moveit_configConfig.cmake
+[2.006s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/cmake/final_description_moveit_configConfig-version.cmake
+[2.006s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/package.xml
+[2.006s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch
+[2.007s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/spawn_controllers.launch.py
+[2.009s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/move_group.launch.py
+[2.011s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/warehouse_db.launch.py
+[2.013s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/moveit_rviz.launch.py
+[2.015s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[2.016s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/rsp.launch.py
+[2.017s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/demo.launch.py
+[2.018s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/launch/setup_assistant.launch.py
+[2.019s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config
+[2.019s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/pilz_cartesian_limits.yaml
+[2.020s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/sensors_3d.yaml
+[2.022s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/final_description.srdf
+[2.023s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/final_description.urdf.xacro
+[2.025s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/joint_limits.yaml
+[2.026s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/moveit_controllers.yaml
+[2.027s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/kinematics.yaml
+[2.028s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/moveit.rviz
+[2.029s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/ros2_controllers.yaml
+[2.031s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/final_description.ros2_control.xacro
+[2.032s] -- Installing: /home/eva/ros2_ws/install/final_description_moveit_config/share/final_description_moveit_config/config/initial_positions.yaml
+[2.038s] Invoked command in '/home/eva/ros2_ws/build/final_description_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eva/ros2_ws/install/final_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --install /home/eva/ros2_ws/build/final_description_moveit_config

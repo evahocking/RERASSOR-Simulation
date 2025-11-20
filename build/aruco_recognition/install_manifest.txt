@@ -1,0 +1,16 @@
+/home/eva/ros2_ws/install/aruco_recognition/lib/aruco_recognition/aruco_pose_estimation.py
+/home/eva/ros2_ws/install/aruco_recognition/share/ament_index/resource_index/package_run_dependencies/aruco_recognition
+/home/eva/ros2_ws/install/aruco_recognition/share/ament_index/resource_index/parent_prefix_path/aruco_recognition
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/ament_prefix_path.sh
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/ament_prefix_path.dsv
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/path.sh
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/environment/path.dsv
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.bash
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.sh
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.zsh
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/local_setup.dsv
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/package.dsv
+/home/eva/ros2_ws/install/aruco_recognition/share/ament_index/resource_index/packages/aruco_recognition
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/cmake/aruco_recognitionConfig.cmake
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/cmake/aruco_recognitionConfig-version.cmake
+/home/eva/ros2_ws/install/aruco_recognition/share/aruco_recognition/package.xml

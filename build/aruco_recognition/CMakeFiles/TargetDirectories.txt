@@ -1,0 +1,9 @@
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/uninstall.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/aruco_recognition_uninstall.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/test.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/edit_cache.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/rebuild_cache.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/list_install_components.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/install.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/install/local.dir
+/home/eva/ros2_ws/build/aruco_recognition/CMakeFiles/install/strip.dir

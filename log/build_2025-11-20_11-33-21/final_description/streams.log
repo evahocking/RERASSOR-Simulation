@@ -1,0 +1,87 @@
+[0.082s] Invoking command in '/home/eva/ros2_ws/build/final_description': CMAKE_PREFIX_PATH=/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake /home/eva/ros2_ws/src/final_description -DCMAKE_INSTALL_PREFIX=/home/eva/ros2_ws/install/final_description
+[0.334s] -- The C compiler identification is GNU 11.4.0
+[0.483s] -- The CXX compiler identification is GNU 11.4.0
+[0.503s] -- Detecting C compiler ABI info
+[0.724s] -- Detecting C compiler ABI info - done
+[0.738s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.738s] -- Detecting C compile features
+[0.739s] -- Detecting C compile features - done
+[0.750s] -- Detecting CXX compiler ABI info
+[0.959s] -- Detecting CXX compiler ABI info - done
+[0.972s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.978s] -- Detecting CXX compile features
+[0.984s] -- Detecting CXX compile features - done
+[0.985s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.402s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.618s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.921s] -- Configuring done
+[1.926s] -- Generating done
+[1.929s] -- Build files have been written to: /home/eva/ros2_ws/build/final_description
+[1.936s] Invoked command in '/home/eva/ros2_ws/build/final_description' returned '0': CMAKE_PREFIX_PATH=/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake /home/eva/ros2_ws/src/final_description -DCMAKE_INSTALL_PREFIX=/home/eva/ros2_ws/install/final_description
+[1.943s] Invoking command in '/home/eva/ros2_ws/build/final_description': CMAKE_PREFIX_PATH=/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --build /home/eva/ros2_ws/build/final_description -- -j2 -l2
+[2.118s] Invoked command in '/home/eva/ros2_ws/build/final_description' returned '0': CMAKE_PREFIX_PATH=/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --build /home/eva/ros2_ws/build/final_description -- -j2 -l2
+[2.120s] Invoking command in '/home/eva/ros2_ws/build/final_description': CMAKE_PREFIX_PATH=/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --install /home/eva/ros2_ws/build/final_description
+[2.143s] -- Install configuration: ""
+[2.170s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch
+[2.171s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/bringup.launch.py
+[2.204s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/camera_test.launch.py
+[2.204s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/display.launch.py
+[2.205s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/gazebo.launch.py
+[2.205s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/launch/spawn_model.launch.py
+[2.205s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf
+[2.205s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/camera_test.urdf
+[2.205s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final_include.xacro
+[2.208s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final.xacro
+[2.222s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/materials.xacro
+[2.222s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final.gazebo
+[2.223s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/README.md
+[2.229s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/camera_test.xacro
+[2.236s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/urdf/final.trans
+[2.236s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes
+[2.236s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcaplinktwo.stl
+[2.239s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/manipulator.stl
+[2.252s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcapbasetwo.stl
+[2.271s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/pinbase.stl
+[2.273s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/wormone.stl
+[2.296s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/baseonetop.stl
+[2.303s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/sunconnector.stl
+[2.320s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/motorthree.stl
+[2.324s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/base_link.stl
+[2.328s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/motorendtwo.stl
+[2.337s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/motorendone.stl
+[2.361s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/armone.stl
+[2.361s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcaplinkone.stl
+[2.368s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/planetaryconnector.stl
+[2.371s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/pinend.stl
+[2.373s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/gearone.stl
+[2.392s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/wormthree.stl
+[2.403s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/pinlinks.stl
+[2.416s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/endcapbaseone.stl
+[2.422s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/meshes/gearthree.stl
+[2.432s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config
+[2.434s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config/moveit.rviz
+[2.436s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config/final_description_controllers.yaml
+[2.436s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/config/display.rviz
+[2.439s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models
+[2.439s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long
+[2.440s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/meshes
+[2.440s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/meshes/block_long.dae
+[2.443s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/meshes/block_long.stl
+[2.445s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/model.config
+[2.446s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/models/aruco_block_long/model.sdf
+[2.448s] -- Installing: /home/eva/ros2_ws/install/final_description/share/ament_index/resource_index/package_run_dependencies/final_description
+[2.449s] -- Installing: /home/eva/ros2_ws/install/final_description/share/ament_index/resource_index/parent_prefix_path/final_description
+[2.449s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/ament_prefix_path.sh
+[2.449s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/ament_prefix_path.dsv
+[2.450s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/path.sh
+[2.451s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/environment/path.dsv
+[2.451s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.bash
+[2.452s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.sh
+[2.454s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.zsh
+[2.454s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/local_setup.dsv
+[2.455s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/package.dsv
+[2.456s] -- Installing: /home/eva/ros2_ws/install/final_description/share/ament_index/resource_index/packages/final_description
+[2.457s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/cmake/final_descriptionConfig.cmake
+[2.462s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/cmake/final_descriptionConfig-version.cmake
+[2.465s] -- Installing: /home/eva/ros2_ws/install/final_description/share/final_description/package.xml
+[2.476s] Invoked command in '/home/eva/ros2_ws/build/final_description' returned '0': CMAKE_PREFIX_PATH=/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/rassor_serial_fwd:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_sim_description:/home/eva/2025-Summer-Knights-RASSOR/ezrassor_rover/install/ezrassor_controller_server:/opt/ros/humble /usr/bin/cmake --install /home/eva/ros2_ws/build/final_description
