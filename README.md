@@ -142,7 +142,7 @@ Click the Plan & Execute button in the MotionPlanning panel.
 
 The real arm in Gazebo will move to match the plan.
 
-Troubleshooting
+### Troubleshooting
 Arm is slumped/limp: You likely forgot to run the commands in Terminal 2. The controllers must be loaded manually.
 
 "Address already in use" error: An old simulation is still running in the background. Run killall -9 gzserver gzclient to force close it.
