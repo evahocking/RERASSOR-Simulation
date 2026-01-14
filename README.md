@@ -119,9 +119,9 @@ ros2 control load_controller --set-state active arm_controller
 ```
 After you run the second command, the arm in Gazebo can be controlled by the RVIZ plan and excecute button. Drag the arm in rviz with the colored markers to get it to the desired positon.
 
-## this section only i have not tested - this is for future use if i get it running
+## Spawn Camera
 Terminal 3 (Optional): Aruco Recognition
-To run the computer vision node:
+To run the computer vision node: (camera will spawn in midair incorrectly as of now-but feed still works)
 
 ```bash
 
