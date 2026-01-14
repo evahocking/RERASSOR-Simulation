@@ -103,7 +103,7 @@ ros2 launch final_description bringup.launch.py
 ```
 Note: The arm will spawn in a "slumped" state (limp) inside Gazebo. This is expected behavior until you run Terminal 2.
 
-Terminal 2: Wake Up the Controllers
+Terminal 2: Wake Up the Controllers: 
 Open a new terminal to activate the motors.
 
 ```bash
@@ -117,7 +117,7 @@ ros2 control load_controller --set-state active joint_state_broadcaster
 # 2. Load the arm controller (This makes the arm stand up!)
 ros2 control load_controller --set-state active arm_controller
 ```
-The moment you run the second command, the arm in Gazebo should snap to the upright position.
+After you run the second command, the arm in Gazebo can be controlled by the RVIZ plan and excecute button. Drag the arm in rviz with the colored markers to get it to the desired positon.
 
 ## this section only i have not tested - this is for future use if i get it running
 Terminal 3 (Optional): Aruco Recognition
