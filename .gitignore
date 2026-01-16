@@ -1,0 +1,13 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Colcon / ament
+*.env
+*.log
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
